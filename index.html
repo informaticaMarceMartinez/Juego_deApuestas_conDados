@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuesta con Dados</title>
+    <link rel="stylesheet" href="apuesta.css">
+    <script src="dados.js"></script>
+    
+</head>
+<body onload="inicio()">
+
+    <h1>Apuesta con Dados</h1>
+
+    <section id="contenedor">
+        <table>
+            <tr>
+                <td><h2>Elige entre 1 y 6</h2></td>
+                <td><input id="valor" type="number" max="6" min="1" placeholder="Número del Dado" required></td>
+            </tr>
+            <tr>
+                <td><h2>Cantidad a apostar</h2></td>
+                <td><input id="apostar" type="number" min="1" placeholder="Dinero por Transacción" required></td>
+            </tr>
+            <tr>
+                <td><h2>Dinero</h2></td>
+                <td><input id="dinero" type="number" min="0" placeholder="Ingresa una Cantidad" required></td>
+            </tr>
+        </table>
+
+        <button onclick="cargar()">Cargar Dinero</button>
+    
+        <div id="saldoCont">
+            <h2>Saldo Actual:</h2>
+            <h2 id="saldo"></h2>
+        </div>
+
+        <div id="dado">
+            <img id="cara" src="/imgCaras/6.png" alt="dado">
+        </div>
+
+        <button onclick="apuesta()">APOSTAR</button>
+    
+ <!--       <div id="resultado">
+            <h2>RESULTADO:</h2>
+            <h1 id="mensaje"></h1>
+        </div> -->
+
+        <h2 id="resultado"></h2>
+
+        <h1 id="mensaje0"></h1>
+        <h1 id="mensaje"></h1>
+    
+
+    </section>    
+</body>
+</html>

@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* background-color: rgb(255, 255, 255); */
+    color: rgb(10, 76, 0);
+    border-radius: 15px;
+
+}
+
+body{
+    text-align: center;
+    background-image: url("");
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */ 
+    background-size: 10%;
+}
+
+table{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#saldoCont{
+    background-color: rgb(189, 171, 90);
+    background-color: rgb(153, 132, 39);
+
+}
+
+#contenedor{
+    
+    background-color: rgb(189, 171, 90);
+    box-shadow: 29px 28px 40px -7px rgba(0,0,0,1);
+
+    width: 45%;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+
+input{
+    margin-left: 0px;
+    width: 90%;
+    text-align: center;
+    height: auto;
+    font-size: large;
+
+}
+
+h2{
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+h1{
+    margin-top: 15px;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    margin: 20px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgb(34, 67, 1);
+    box-shadow: 10px 13px 8px 0px rgba(0,0,0,0.63);
+
+    width: 30%;
+    height: 35px;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    color:  rgb(34, 67, 1);
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(98, 132, 63);
+    width: 26%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid rgb(87, 122, 87);
+    box-shadow: 5px -4px 10px 3px rgba(52,107,63,1);
+}
+
+img{
+   /* border: 3px solid black ; */
+    width: 25%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#dado{
+    display: flex;
+    width: 70%;
+    box-shadow: 29px 28px 40px -7px rgba(0,0,0,1);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#saldo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background-color: rgb(34, 67, 1);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+
+}
+
+#mensaje{
+    background-color: rgb(116, 209, 28);
+}
+
+@media screen and (max-width: 1080px) {
+    h2{
+        margin: 10px;
+        text-align: center;
+        font-size: medium;
+    }
+
+    #contenedor{
+    
+        width: 55%;
+        margin-top: 30px;
+        
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    h2{
+        margin: 10px;
+        text-align: center;
+        font-size: small;
+
+    }
+
+    #contenedor{
+        width: 65%;
+        margin-top: 20px;
+        
+    }
+
+    button{
+        margin: 20px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+
+        width: 40%;
+        height: 30px;
+        border-radius: 8px;
+    }
+
+    button:hover{
+        font-size: 14px;
+        width: 38%;
+        height: 30px;
+        border-radius: 8px;
+    }
+
+    #valor, #apostar, #dinero{
+        font-size: small;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    h2{
+        margin: 7px;
+        text-align: center;
+        font-size: smaller;
+
+    }
+
+    #contenedor{
+        width: 75%;
+        margin-top: 15px;
+        
+    }
+
+    button{
+        margin: 15px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+
+        width: 45%;
+        height: 30px;
+        border-radius: 8px;
+    }
+
+    button:hover{
+        font-size: 14px;
+        width: 43%;
+        height: 30px;
+        border-radius: 8px;
+    }
+
+    #valor, #apostar, #dinero{
+        font-size: x-small;
+    }
+
+}
